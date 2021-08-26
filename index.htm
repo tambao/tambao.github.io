@@ -2115,8 +2115,6 @@ thành quả trên suốt hành trình đầu tư của mình! </li>
       console.log(txt);
       accessRef.get().then( snapshot =>{
          document.getElementById('countView').innerHTML = txt+" ( Tổng lượt truy cập : "+ snapshot.numChildren()+" lượt)";
-         console.log(snapshot.numChildren());
-         console.log(snapshot.val());
       });
    }
 
